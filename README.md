@@ -9,15 +9,15 @@ Implement constructors and destructors:
 5. ~S21Matrix() - destructor
 
 Overload the following operators:
-1. + - addition of two matrices
-2. - - subtraction of one matrix from another
-3. * - matrix multiplication and matrix multiplication by a number
-4. == - checks for matrices equality (EqMatrix)
-5. = - assignment of values from one matrix to another one
-6. += - addition assignment (SumMatrix)
-7. -= - difference assignment (SubMatrix)
-8. *= - multiplication assignment (MulMatrix/MulNumber)
-9. (int i, int j) - indexation by matrix elements (row, column)
+1. operator+ - addition of two matrices
+2. operator- - subtraction of one matrix from another
+3. operator* - matrix multiplication and matrix multiplication by a number
+4. operator== - checks for matrices equality (EqMatrix)
+5. operator= - assignment of values from one matrix to another one
+6. operator+= - addition assignment (SumMatrix)
+7. operator-= - difference assignment (SubMatrix)
+8. operator*= - multiplication assignment (MulMatrix/MulNumber)
+9. operator(int i, int j) - indexation by matrix elements (row, column)
 
 Matrix operations:
 1. bool EqMatrix(const S21Matrix& other) - checks matrices for equality with each other
