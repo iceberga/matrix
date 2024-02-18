@@ -1,3 +1,4 @@
+// created by @iceberga
 #include "matrix_oop.h"
 
 S21Matrix::S21Matrix() : rows_(0), cols_(0), matrix_(nullptr) {}
